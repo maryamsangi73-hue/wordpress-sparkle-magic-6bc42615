@@ -42,12 +42,8 @@ const FooterSection = () => (
         <div>
           <h4 className="font-heading font-bold text-primary-foreground mb-4">خدماتنا / Services</h4>
           <ul className="space-y-1 text-sm" dir="rtl">
-            <li>صيانة مكيفات / AC Maintenance</li>
-            <li>ثلاجات / Refrigerators</li>
             <li>غسالات اتوماتيك / Washing Machines</li>
-            <li>مكنسة كهربائي / Vacuum Cleaners</li>
-            <li>أفران / Ovens</li>
-            <li>تمديد مواسير / Pipe Installation</li>
+            <li>ثلاجات / Refrigerators</li>
           </ul>
         </div>
       </div>
