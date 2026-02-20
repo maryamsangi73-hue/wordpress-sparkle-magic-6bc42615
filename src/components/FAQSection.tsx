@@ -7,7 +7,7 @@ import {
 
 const faqs = [
   { qAr: "ما هي المناطق التي تخدمونها؟", qEn: "What areas do you serve?", aAr: "نقدم خدمات صيانة الأجهزة المنزلية في طائف والمناطق المحيطة بها.", aEn: "We provide appliance repair services in Taif and surrounding areas." },
-  { qAr: "ما هي الأجهزة التي تصلحونها؟", qEn: "What appliances do you repair?", aAr: "نصلح المكيفات، الثلاجات، الغسالات الأوتوماتيكية، المكانس الكهربائية، الأفران، وخدمات تمديد المواسير.", aEn: "We repair ACs, refrigerators, automatic washing machines, vacuum cleaners, ovens, and provide pipe installation services." },
+  { qAr: "ما هي الأجهزة التي تصلحونها؟", qEn: "What appliances do you repair?", aAr: "نصلح الثلاجات والغسالات الأوتوماتيكية.", aEn: "We repair refrigerators and automatic washing machines." },
   { qAr: "هل تقدمون خدمة في نفس اليوم؟", qEn: "Do you offer same-day service?", aAr: "نعم! اتصل بنا وسنرسل فنياً في أقرب وقت ممكن.", aEn: "Yes! Call us and we'll send a technician as soon as possible." },
   { qAr: "كيف يمكنني التواصل معكم؟", qEn: "How can I contact you?", aAr: "يمكنك الاتصال بنا على الأرقام: 0594695932 أو 0582448501", aEn: "You can call us at: 0594695932 or 0582448501" },
 ];
