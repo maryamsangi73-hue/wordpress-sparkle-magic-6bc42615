@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container flex items-center justify-between py-4">
         <a href="#" className="flex items-center gap-2">
           <Wrench className="h-8 w-8 text-accent" />
-          <span className="font-heading font-bold text-xl text-primary">Appliance<span className="text-accent">Repair</span></span>
+          <span className="font-heading font-bold text-xl text-primary">مرکز <span className="text-accent">الدعاء</span></span>
         </a>
 
         <ul className="hidden lg:flex items-center gap-8">
