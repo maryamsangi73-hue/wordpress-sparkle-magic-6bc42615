@@ -1,16 +1,18 @@
 import { Star } from "lucide-react";
 
 const testimonials = [
-  { name: "Valtteri Erkin", text: "Excellent service! They fixed my washing machine the same day I called. Very professional and affordable. Highly recommend to anyone needing appliance repairs." },
-  { name: "Anar Norwood", text: "The technician was punctual, knowledgeable, and had my refrigerator working perfectly again. Great communication throughout the entire process." },
-  { name: "Kory Junior", text: "I've used their services multiple times now. Always reliable, always fair pricing. They're my go-to for any appliance issues at home." },
+  { name: "أحمد / Ahmed", textAr: "خدمة ممتازة! أصلحوا المكيف بسرعة وبسعر مناسب. أنصح بهم بشدة.", textEn: "Excellent service! They fixed my AC quickly and at a fair price. Highly recommend." },
+  { name: "محمد / Mohammed", textAr: "الفني كان محترف جداً وأصلح الثلاجة بنفس اليوم. شكراً مركز الدعاء.", textEn: "Very professional technician, fixed the refrigerator the same day. Thank you Markaz Al-Duaa." },
+  { name: "عبدالله / Abdullah", textAr: "استخدمت خدماتهم عدة مرات. دائماً موثوقين وأسعار عادلة.", textEn: "I've used their services multiple times. Always reliable and fair pricing." },
 ];
 
 const TestimonialsSection = () => (
   <section className="py-20 bg-secondary">
     <div className="container">
       <div className="text-center mb-14">
-        <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground">What Our Clients Say</h2>
+        <h2 className="text-3xl md:text-4xl font-heading font-bold text-foreground">
+          <span dir="rtl">آراء عملائنا</span> / Client Reviews
+        </h2>
         <div className="w-12 h-1 bg-accent mx-auto mt-4" />
       </div>
       <div className="grid md:grid-cols-3 gap-8">
@@ -21,7 +23,8 @@ const TestimonialsSection = () => (
                 <Star key={i} className="h-4 w-4 fill-accent text-accent" />
               ))}
             </div>
-            <p className="text-muted-foreground text-sm leading-relaxed mb-6 italic">"{t.text}"</p>
+            <p className="text-muted-foreground text-sm leading-relaxed mb-2 italic" dir="rtl">"{t.textAr}"</p>
+            <p className="text-muted-foreground text-xs leading-relaxed mb-6 italic">"{t.textEn}"</p>
             <p className="font-heading font-bold text-foreground">{t.name}</p>
           </div>
         ))}
