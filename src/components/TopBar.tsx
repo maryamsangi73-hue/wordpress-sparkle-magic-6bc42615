@@ -9,6 +9,7 @@ const TopBar = () => (
           <span className="font-heading font-semibold" dir="ltr"><span className="font-heading font-semibold" dir="ltr">0594795932</span></span>
         </div>
         <span className="hidden sm:inline font-heading font-semibold" dir="ltr">0582448501</span>
+        <span className="hidden md:inline font-heading font-semibold">info@fixac.io</span>
       </div>
       <div className="hidden sm:flex items-center gap-3">
         <a href="#" className="hover:text-accent transition-colors"><Facebook className="h-4 w-4" /></a>

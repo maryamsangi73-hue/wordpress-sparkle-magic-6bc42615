@@ -22,6 +22,7 @@ const FooterSection = () => (
           <ul className="space-y-3 text-sm">
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr"><li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr">0594795932</span></li></span></li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr">0582448501</span></li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4 text-accent" /> <a href="mailto:info@fixac.io" className="hover:text-accent transition-colors">info@fixac.io</a></li>
           </ul>
         </div>
 
