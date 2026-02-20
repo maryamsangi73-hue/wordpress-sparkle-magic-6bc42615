@@ -32,7 +32,7 @@ const HeroSection = () => (
             <Phone className="h-5 w-5" />
             <span dir="ltr">0594695932</span>
           </Button>
-          <Button variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10 font-heading font-bold px-8 py-6 text-base gap-2">
+          <Button variant="outline" className="border-accent text-accent-foreground bg-primary/80 hover:bg-primary font-heading font-bold px-8 py-6 text-base gap-2">
             <Phone className="h-5 w-5" />
             <span dir="ltr">0582448501</span>
           </Button>
