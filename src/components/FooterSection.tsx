@@ -7,7 +7,7 @@ const FooterSection = () => (
         <div>
           <div className="flex items-center gap-2 mb-4">
             <Wrench className="h-6 w-6 text-accent" />
-            <span className="font-heading font-bold text-lg text-primary-foreground">Appliance<span className="text-accent">Repair</span></span>
+            <span className="font-heading font-bold text-lg text-primary-foreground">مرکز <span className="text-accent">الدعاء</span></span>
           </div>
           <p className="text-sm leading-relaxed">
             Professional appliance repair services you can trust. We fix all major brands with same-day service availability.
@@ -46,7 +46,7 @@ const FooterSection = () => (
     </div>
     <div className="border-t border-primary/30">
       <div className="container py-4 text-center text-xs">
-        © 2026 ApplianceRepair. All rights reserved.
+        © 2026 مرکز الدعاء. All rights reserved.
       </div>
     </div>
   </footer>
