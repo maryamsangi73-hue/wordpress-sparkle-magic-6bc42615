@@ -48,21 +48,7 @@ const FooterSection = () => (
         </div>
       </div>
     </div>
-    <div className="container pb-10">
-      <h4 className="font-heading font-bold text-primary-foreground mb-4 text-center">موقعنا / Our Location</h4>
-      <div className="rounded-xl overflow-hidden border border-primary/20 shadow-lg">
-        <iframe
-          title="Markaz Al-Duaa Location"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3712.123!2d40.4168!3d21.2703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s25+Al+Shuhada+St%2C+Taif!5e0!3m2!1sen!2ssa!4v1700000000000"
-          width="100%"
-          height="300"
-          style={{ border: 0 }}
-          allowFullScreen
-          loading="lazy"
-          referrerPolicy="no-referrer-when-downgrade"
-        />
-      </div>
-    </div>
+    
     <div className="border-t border-primary/30">
       <div className="container py-4 text-center text-xs">
         © 2026 مركز الدعاء — Markaz Al-Duaa. All rights reserved.
