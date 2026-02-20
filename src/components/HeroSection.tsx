@@ -30,7 +30,7 @@ const HeroSection = () => (
         <div className="flex flex-col sm:flex-row gap-3">
           <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-bold px-8 py-6 text-base gap-2">
             <Phone className="h-5 w-5" />
-            <span dir="ltr">0594695932</span>
+            <span dir="ltr"><span dir="ltr">0594795932</span></span>
           </Button>
           <Button variant="outline" className="border-accent text-accent-foreground bg-primary/80 hover:bg-primary font-heading font-bold px-8 py-6 text-base gap-2">
             <Phone className="h-5 w-5" />

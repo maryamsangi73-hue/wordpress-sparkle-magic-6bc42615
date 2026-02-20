@@ -6,7 +6,7 @@ const TopBar = () => (
       <div className="flex items-center gap-4">
         <div className="flex items-center gap-2">
           <Phone className="h-4 w-4" />
-          <span className="font-heading font-semibold" dir="ltr">0594695932</span>
+          <span className="font-heading font-semibold" dir="ltr"><span className="font-heading font-semibold" dir="ltr">0594795932</span></span>
         </div>
         <span className="hidden sm:inline font-heading font-semibold" dir="ltr">0582448501</span>
       </div>
