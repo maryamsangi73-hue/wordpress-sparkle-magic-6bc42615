@@ -1,12 +1,17 @@
-import { AirVent, WashingMachine, Refrigerator, Fan, CookingPot, Wrench } from "lucide-react";
+import serviceAc from "@/assets/service-ac.jpg";
+import serviceFridge from "@/assets/service-fridge.jpg";
+import serviceWasher from "@/assets/service-washer.jpg";
+import serviceVacuum from "@/assets/service-vacuum.jpg";
+import serviceOven from "@/assets/service-oven.jpg";
+import servicePipes from "@/assets/service-pipes.jpg";
 
 const services = [
-  { icon: AirVent, titleAr: "صيانة مكيفات", titleEn: "AC Maintenance", descAr: "صيانة وإصلاح جميع أنواع المكيفات", descEn: "Maintenance and repair of all types of air conditioners" },
-  { icon: Refrigerator, titleAr: "صيانة ثلاجات", titleEn: "Refrigerator Repair", descAr: "إصلاح جميع أنواع الثلاجات والفريزرات", descEn: "Repair of all types of refrigerators and freezers" },
-  { icon: WashingMachine, titleAr: "غسالات اتوماتيك", titleEn: "Washing Machine Repair", descAr: "صيانة وإصلاح الغسالات الأوتوماتيكية", descEn: "Maintenance and repair of automatic washing machines" },
-  { icon: Fan, titleAr: "مكنسة كهربائي", titleEn: "Vacuum Cleaner Repair", descAr: "إصلاح جميع أنواع المكانس الكهربائية", descEn: "Repair of all types of vacuum cleaners" },
-  { icon: CookingPot, titleAr: "صيانة أفران", titleEn: "Oven Repair", descAr: "إصلاح وصيانة الأفران الكهربائية والغاز", descEn: "Repair and maintenance of electric and gas ovens" },
-  { icon: Wrench, titleAr: "تمديد مواسير", titleEn: "Pipe Installation", descAr: "تمديد وإصلاح المواسير والسباكة", descEn: "Pipe installation and plumbing services" },
+  { image: serviceAc, titleAr: "صيانة مكيفات", titleEn: "AC Maintenance", descAr: "صيانة وإصلاح جميع أنواع المكيفات", descEn: "Maintenance and repair of all types of air conditioners" },
+  { image: serviceFridge, titleAr: "صيانة ثلاجات", titleEn: "Refrigerator Repair", descAr: "إصلاح جميع أنواع الثلاجات والفريزرات", descEn: "Repair of all types of refrigerators and freezers" },
+  { image: serviceWasher, titleAr: "غسالات اتوماتيك", titleEn: "Washing Machine Repair", descAr: "صيانة وإصلاح الغسالات الأوتوماتيكية", descEn: "Maintenance and repair of automatic washing machines" },
+  { image: serviceVacuum, titleAr: "مكنسة كهربائي", titleEn: "Vacuum Cleaner Repair", descAr: "إصلاح جميع أنواع المكانس الكهربائية", descEn: "Repair of all types of vacuum cleaners" },
+  { image: serviceOven, titleAr: "صيانة أفران", titleEn: "Oven Repair", descAr: "إصلاح وصيانة الأفران الكهربائية والغاز", descEn: "Repair and maintenance of electric and gas ovens" },
+  { image: servicePipes, titleAr: "تمديد مواسير", titleEn: "Pipe Installation", descAr: "تمديد وإصلاح المواسير والسباكة", descEn: "Pipe installation and plumbing services" },
 ];
 
 const ServicesSection = () => (
@@ -20,14 +25,21 @@ const ServicesSection = () => (
       </div>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {services.map((s) => (
-          <div key={s.titleEn} className="group p-8 rounded-lg border border-border bg-card hover:shadow-xl hover:-translate-y-1 transition-all duration-300">
-            <div className="w-16 h-16 rounded-full bg-accent/10 flex items-center justify-center mb-5 group-hover:bg-accent transition-colors">
-              <s.icon className="h-8 w-8 text-accent group-hover:text-accent-foreground transition-colors" />
+          <div key={s.titleEn} className="group rounded-lg border border-border bg-card hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden">
+            <div className="h-48 overflow-hidden">
+              <img
+                src={s.image}
+                alt={`${s.titleAr} - ${s.titleEn}`}
+                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                loading="lazy"
+              />
             </div>
-            <h3 className="font-heading font-bold text-lg text-foreground mb-1" dir="rtl">{s.titleAr}</h3>
-            <h4 className="font-heading font-semibold text-sm text-accent mb-3">{s.titleEn}</h4>
-            <p className="text-muted-foreground text-sm leading-relaxed mb-1" dir="rtl">{s.descAr}</p>
-            <p className="text-muted-foreground text-xs leading-relaxed">{s.descEn}</p>
+            <div className="p-6">
+              <h3 className="font-heading font-bold text-lg text-foreground mb-1" dir="rtl">{s.titleAr}</h3>
+              <h4 className="font-heading font-semibold text-sm text-accent mb-3">{s.titleEn}</h4>
+              <p className="text-muted-foreground text-sm leading-relaxed mb-1" dir="rtl">{s.descAr}</p>
+              <p className="text-muted-foreground text-xs leading-relaxed">{s.descEn}</p>
+            </div>
           </div>
         ))}
       </div>
