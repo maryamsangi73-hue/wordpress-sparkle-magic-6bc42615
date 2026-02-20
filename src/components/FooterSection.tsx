@@ -20,7 +20,7 @@ const FooterSection = () => (
         <div>
           <h4 className="font-heading font-bold text-primary-foreground mb-4">اتصل بنا / Contact</h4>
           <ul className="space-y-3 text-sm">
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr">0594695932</span></li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr"><li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr">0594795932</span></li></span></li>
             <li className="flex items-center gap-2"><Phone className="h-4 w-4 text-accent" /> <span dir="ltr">0582448501</span></li>
           </ul>
         </div>
