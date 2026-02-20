@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 const navItems = [
   { en: "Home", ar: "الرئيسية", href: "#home" },
   { en: "Services", ar: "خدماتنا", href: "#services" },
-  { en: "About Us", ar: "من نحن", href: "#about-us" },
+  
   { en: "FAQ", ar: "الأسئلة", href: "#faq" },
   { en: "Contact Us", ar: "اتصل بنا", href: "#contact-us" },
 ];
