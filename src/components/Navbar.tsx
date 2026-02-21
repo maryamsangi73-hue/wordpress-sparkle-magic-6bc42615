@@ -3,10 +3,9 @@ import { Menu, X, Wrench } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navItems = [
-  { en: "Home", ar: "الرئيسية", href: "#home" },
   { en: "Services", ar: "خدماتنا", href: "#services" },
-  
   { en: "FAQ", ar: "الأسئلة", href: "#faq" },
+  { en: "Location", ar: "الموقع", href: "#location" },
   { en: "Contact Us", ar: "اتصل بنا", href: "#contact-us" },
 ];
 
@@ -34,10 +33,6 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <Button className="hidden lg:inline-flex bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold uppercase text-sm px-6">
-          اتصل بنا / Call Us
-        </Button>
-
         <button className="lg:hidden text-foreground" onClick={() => setOpen(!open)}>
           {open ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
         </button>
@@ -55,9 +50,6 @@ const Navbar = () => {
               {item.ar} / {item.en}
             </a>
           ))}
-          <Button className="mt-2 w-full bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-semibold text-sm">
-            اتصل بنا / Call Us
-          </Button>
         </div>
       )}
     </nav>

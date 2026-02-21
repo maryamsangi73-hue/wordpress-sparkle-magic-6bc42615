@@ -12,9 +12,9 @@ const TopBar = () => (
         <span className="hidden md:inline font-heading font-semibold">info@fixac.io</span>
       </div>
       <div className="hidden sm:flex items-center gap-3">
-        <a href="#" className="hover:text-accent transition-colors"><Facebook className="h-4 w-4" /></a>
-        <a href="#" className="hover:text-accent transition-colors"><Twitter className="h-4 w-4" /></a>
-        <a href="#" className="hover:text-accent transition-colors"><Linkedin className="h-4 w-4" /></a>
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors"><Facebook className="h-4 w-4" /></a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors"><Twitter className="h-4 w-4" /></a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-accent transition-colors"><Linkedin className="h-4 w-4" /></a>
       </div>
     </div>
   </div>
