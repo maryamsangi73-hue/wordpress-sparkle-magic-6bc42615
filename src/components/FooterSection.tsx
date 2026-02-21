@@ -45,6 +45,7 @@ const FooterSection = () => (
           <ul className="space-y-1 text-sm" dir="rtl">
             <li>غسالات اتوماتيك / Washing Machines</li>
             <li>ثلاجات / Refrigerators</li>
+            <li>مكيفات / Air Conditioners</li>
           </ul>
         </div>
       </div>
