@@ -21,10 +21,10 @@ const HeroSection = () => (
         <p className="text-base md:text-lg text-primary-foreground/90 mb-2" dir="rtl">
           مهندس كاشف (باكستاني)
         </p>
-        <p className="text-base md:text-lg text-primary-foreground/80 mb-2">
+        <p className="text-base md:text-lg text-primary-foreground/80 mb-2 font-bold">
           Engineer Kashif (Pakistani)
         </p>
-        <p className="text-sm md:text-base text-primary-foreground/80 mb-6" dir="rtl">
+        <p className="text-sm md:text-base text-primary-foreground/80 mb-6 font-bold" dir="rtl">
           التكييف · التبريد · صيانة مكيفات · ثلاجات · غسالات اتوماتيك · مكنسة كهربائي · فرن · تمديد مواسير
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
