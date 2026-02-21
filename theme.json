@@ -1,0 +1,12 @@
+{\n  "name": "WordPress Block Theme",
+  "description": "A modern WordPress theme utilizing the block editor.",
+  "version": "1.0",
+  "styles": [
+    "style.css"
+  ],
+  "support": {
+    "custom-header": true,
+    "custom-logo": true,
+    "post-thumbnails": true
+  }
+}
