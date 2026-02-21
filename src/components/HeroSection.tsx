@@ -8,7 +8,7 @@ const HeroSection = () => (
     <img
       src={heroImage}
       alt="مهندس كاشف - فني صيانة أجهزة منزلية محترف مع غسالة وثلاجة"
-      className="absolute inset-0 w-full h-full object-cover object-center sm:object-right-top"
+      className="absolute inset-0 w-full h-full object-contain sm:object-cover object-center sm:object-right-top bg-[hsl(var(--hero-bg))]"
     />
     <div className="container relative z-20 flex items-center min-h-[520px] lg:min-h-[560px]">
       <div className="max-w-xl py-16 lg:py-24">
