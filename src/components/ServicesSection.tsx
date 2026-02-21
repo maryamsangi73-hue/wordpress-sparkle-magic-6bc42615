@@ -1,9 +1,11 @@
 import serviceFridge from "@/assets/service-fridge.jpg";
 import serviceWasher from "@/assets/service-washer.jpg";
+import serviceAc from "@/assets/service-ac.jpg";
 
 const services = [
   { image: serviceWasher, titleAr: "غسالات اتوماتيك", titleEn: "Washing Machine Repair", descAr: "صيانة وإصلاح الغسالات الأوتوماتيكية", descEn: "Maintenance and repair of automatic washing machines" },
   { image: serviceFridge, titleAr: "صيانة ثلاجات", titleEn: "Refrigerator Repair", descAr: "إصلاح جميع أنواع الثلاجات والفريزرات", descEn: "Repair of all types of refrigerators and freezers" },
+  { image: serviceAc, titleAr: "صيانة مكيفات", titleEn: "AC Repair", descAr: "صيانة وإصلاح جميع أنواع المكيفات", descEn: "Maintenance and repair of all types of air conditioners" },
 ];
 
 const ServicesSection = () => (
