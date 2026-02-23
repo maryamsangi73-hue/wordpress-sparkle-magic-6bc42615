@@ -21,10 +21,10 @@ const HeroSection = () => (
         <p className="inline-block bg-black/80 text-white px-4 py-2 rounded text-base md:text-lg font-bold mb-2" dir="rtl">
           مهندس كاشف (باكستاني)
         </p>
-        <p className="text-base md:text-lg text-primary-foreground/80 mb-2 font-bold">
+        <p className="inline-block bg-black/80 text-white px-4 py-2 rounded text-base md:text-lg font-bold mb-2">
           Engineer Kashif (Pakistani)
         </p>
-        <p className="text-base md:text-lg text-primary-foreground/80 mb-6 font-extrabold" dir="rtl">
+        <p className="inline-block bg-black/80 text-white px-4 py-2 rounded text-base md:text-lg font-extrabold mb-6" dir="rtl">
           غسالات اتوماتيك · صيانة ثلاجات · صيانة مكيفات
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
