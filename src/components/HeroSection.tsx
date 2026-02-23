@@ -18,7 +18,7 @@ const HeroSection = () => (
           <span className="block text-xl md:text-2xl mt-2 font-bold opacity-90">Appliance Repair Services</span>
         </h1>
         <div className="w-16 h-1 bg-accent mt-4 mb-6" />
-        <p className="text-base md:text-lg text-primary-foreground/90 mb-2" dir="rtl">
+        <p className="inline-block bg-black/80 text-white px-4 py-2 rounded text-base md:text-lg font-bold mb-2" dir="rtl">
           مهندس كاشف (باكستاني)
         </p>
         <p className="text-base md:text-lg text-primary-foreground/80 mb-2 font-bold">
