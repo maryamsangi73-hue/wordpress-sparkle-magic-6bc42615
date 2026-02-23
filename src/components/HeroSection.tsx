@@ -25,7 +25,7 @@ const HeroSection = () => (
           Engineer Kashif (Pakistani)
         </p>
         <p className="text-sm md:text-base text-primary-foreground/80 mb-6 font-bold" dir="rtl">
-          التكييف · التبريد · صيانة مكيفات · ثلاجات · غسالات اتوماتيك · مكنسة كهربائي · فرن · تمديد مواسير
+          غسالات اتوماتيك · صيانة ثلاجات · صيانة مكيفات
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
           <Button className="bg-accent text-accent-foreground hover:bg-accent/90 font-heading font-bold px-8 py-6 text-base gap-2">
