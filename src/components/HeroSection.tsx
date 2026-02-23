@@ -24,7 +24,7 @@ const HeroSection = () => (
         <p className="text-base md:text-lg text-primary-foreground/80 mb-2 font-bold">
           Engineer Kashif (Pakistani)
         </p>
-        <p className="text-sm md:text-base text-primary-foreground/80 mb-6 font-bold" dir="rtl">
+        <p className="text-base md:text-lg text-primary-foreground/80 mb-6 font-extrabold" dir="rtl">
           غسالات اتوماتيك · صيانة ثلاجات · صيانة مكيفات
         </p>
         <div className="flex flex-col sm:flex-row gap-3">
